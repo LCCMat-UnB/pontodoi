@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+venv/
+.env
+build/
+dist/
+
+# Artefato do Windows/OneDrive, aparece em varias pastas do projeto.
+desktop.ini
+
+# Configuracao local de sessao do Claude Code -- nao e parte do projeto.
+.claude/
+
+# Workspace do usuario final (~/papers-br por padrao, configuravel) nao
+# deveria nunca estar dentro do repo, mas por seguranca caso alguem rode
+# `pontodoi config --workspace .` dentro do proprio clone.
+papers-br/
