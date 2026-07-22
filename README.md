@@ -25,6 +25,7 @@ python -m playwright install chromium   # só para a camada institucional
 ```bash
 pip install git+https://github.com/LCCMat-UnB/pontodoi
 python -m playwright install chromium   # só para a camada institucional
+playwright install-deps
 ```
 
 Isso disponibiliza o comando `pontodoi`. O passo do Playwright é sempre
